@@ -1,0 +1,37 @@
+"#Git spurningar og svör"
+1. Hvað gera eftirfarandi Linux skipanir?
+	cd: change directory
+	cd ~: aftur home
+	ls: sýnir allt sem er í directory sem þú ert í.
+	pwd: sýnir havr þú ert
+	mkdir: býr til folder eða directory
+2. Hvað gera eftirfarandi git skipanir og hvers vegna eru þær gagnlegar?
+	git clone: copyar repo frá odrum til þín en þú getur ekki pushað því það reynir að pusha
+	á hann sem bjó upprunalega til repoið.
+	git log: sýnir commit og hvenær það var gert og af hverjum.
+	git status:sýnir status á branchi eða tree
+	git diff:sýnir breytingar á tree eða branchi.
+	git checkout: skoðar onnur branches.
+3. Hver er munurinn á eftirfarandi git skipunum:
+	a) git diff: sýnir breytingar sem hafa verið gerðar á tree eða branchi
+	b) git diff --staged: sýnir allar breytingar
+	c) git diff commit1: commit2: sýnir frá commit1 til commit2
+4. 	Hvað er útgáfustýring (e.version control)?  getur farið naftur 	
+	þegar file var 
+	eiginlega tomur og sed hvernig hann var þá.
+5.	Hverjir eru helstu kostir við að nota GIT? auðvelt að deila með vinnufélugum og vinum
+	getur líka unnið í því hvar sem þú ert í heiminum.
+6.	Hversu oft telur þú að eigi að gera commit í verkefni, rökstuddu?
+	einog oft og 
+	hægt er því ef eitthvað klúðrast er auðveldara að finna villuna.
+ 7.	Hvað er "Working directory"?" "Staging area"?" og "Repository" í 
+ 	GIT?
+	Working Directory er það sem þú ert að vinna í. Staging area er notað til þess að 
+	skoða hvað virkar og þú getur valið hvort þú vilt bæta þessu við aðalkóðan.
+	Repository er það sem þú býrð til í git og það geymir alla fileana þína.
+8.	Hvenær er sniðugt að nota greinar (branches)? ef fleiri en 1 er að 
+	vinna í verkefninu
+	eða ef maður vill prófa einhvern nýjan feature en vill ekki klúðra aðalkóðanum
+9.	Hver fann upp GIT? Linus Torvalds
+
+10.	Hvar er GIT helst notað? af fólki útum allan heim og fyrirtækjum og 	skólum.
